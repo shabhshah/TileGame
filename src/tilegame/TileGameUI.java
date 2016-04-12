@@ -54,6 +54,11 @@ public class TileGameUI extends javax.swing.JFrame {
         jLayeredPane1.setMinimumSize(new java.awt.Dimension(798, 486));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/black.png"))); // NOI18N
+        jLabel5.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel5MouseDragged(evt);
+            }
+        });
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/black.png"))); // NOI18N
         jLabel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -63,28 +68,88 @@ public class TileGameUI extends javax.swing.JFrame {
         });
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/black.png"))); // NOI18N
+        jLabel6.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel6MouseDragged(evt);
+            }
+        });
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/white.png"))); // NOI18N
+        jLabel13.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel13MouseDragged(evt);
+            }
+        });
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/black.png"))); // NOI18N
+        jLabel3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel3MouseDragged(evt);
+            }
+        });
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/white.png"))); // NOI18N
+        jLabel11.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel11MouseDragged(evt);
+            }
+        });
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/black.png"))); // NOI18N
+        jLabel7.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel7MouseDragged(evt);
+            }
+        });
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/black.png"))); // NOI18N
+        jLabel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel2MouseDragged(evt);
+            }
+        });
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/white.png"))); // NOI18N
+        jLabel10.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel10MouseDragged(evt);
+            }
+        });
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/white.png"))); // NOI18N
+        jLabel12.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel12MouseDragged(evt);
+            }
+        });
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/white.png"))); // NOI18N
+        jLabel14.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel14MouseDragged(evt);
+            }
+        });
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/white.png"))); // NOI18N
+        jLabel9.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel9MouseDragged(evt);
+            }
+        });
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/black.png"))); // NOI18N
+        jLabel4.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel4MouseDragged(evt);
+            }
+        });
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tileGameImages/white.png"))); // NOI18N
+        jLabel8.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseDragged(java.awt.event.MouseEvent evt) {
+                jLabel8MouseDragged(evt);
+            }
+        });
 
         jLayeredPane1.setLayer(jLabel5, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane1.setLayer(jLabel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -195,6 +260,162 @@ public class TileGameUI extends javax.swing.JFrame {
         jLabel1.setLocation(x-75, y-75);
         jLabel1.repaint();        
     }//GEN-LAST:event_jLabel1MouseDragged
+
+    private void jLabel2MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel2.setLocation(x-75, y-75);
+        jLabel2.repaint();
+    }//GEN-LAST:event_jLabel2MouseDragged
+
+    private void jLabel3MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel3.setLocation(x-75, y-75);
+        jLabel3.repaint();
+    }//GEN-LAST:event_jLabel3MouseDragged
+
+    private void jLabel4MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel4.setLocation(x-75, y-75);
+        jLabel4.repaint();
+    }//GEN-LAST:event_jLabel4MouseDragged
+
+    private void jLabel5MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel5.setLocation(x-75, y-75);
+        jLabel5.repaint();
+    }//GEN-LAST:event_jLabel5MouseDragged
+
+    private void jLabel6MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel6.setLocation(x-75, y-75);
+        jLabel6.repaint();
+    }//GEN-LAST:event_jLabel6MouseDragged
+
+    private void jLabel7MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel7.setLocation(x-75, y-75);
+        jLabel7.repaint();
+    }//GEN-LAST:event_jLabel7MouseDragged
+
+    private void jLabel11MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel11MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel11.setLocation(x-75, y-75);
+        jLabel11.repaint();
+    }//GEN-LAST:event_jLabel11MouseDragged
+
+    private void jLabel12MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel12MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel12.setLocation(x-75, y-75);
+        jLabel12.repaint();
+    }//GEN-LAST:event_jLabel12MouseDragged
+
+    private void jLabel13MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel13.setLocation(x-75, y-75);
+        jLabel13.repaint();
+    }//GEN-LAST:event_jLabel13MouseDragged
+
+    private void jLabel8MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel8.setLocation(x-75, y-75);
+        jLabel8.repaint();
+    }//GEN-LAST:event_jLabel8MouseDragged
+
+    private void jLabel10MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel10MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel10.setLocation(x-75, y-75);
+        jLabel10.repaint();
+    }//GEN-LAST:event_jLabel10MouseDragged
+
+    private void jLabel9MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel9.setLocation(x-75, y-75);
+        jLabel9.repaint();
+    }//GEN-LAST:event_jLabel9MouseDragged
+
+    private void jLabel14MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel14MouseDragged
+        Point p;
+        p = SwingUtilities.convertPoint(evt.getComponent(), evt.getPoint(), getContentPane());
+        int x;
+        x = p.x;
+        int y;
+        y = p.y;
+        
+        jLabel14.setLocation(x-75, y-75);
+        jLabel14.repaint();
+    }//GEN-LAST:event_jLabel14MouseDragged
     /**
      * @param args the command line arguments
      */
